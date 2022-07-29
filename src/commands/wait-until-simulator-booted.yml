@@ -7,5 +7,4 @@ parameters:
 steps:
   - run:
       name: Waiting until simulator is booted
-      command: |
-        xcrun simctl bootstatus "${<< parameters.device-udid-var >>}"
+      command: xcrun simctl bootstatus "${<< parameters.device-udid-var >>}"
