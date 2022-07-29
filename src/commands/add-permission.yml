@@ -10,3 +10,4 @@ steps:
   - run:
       name: Granting << parameters.permission-type >> permissions to << parameters.bundle-id >>
       command: << include(scripts/add-permission.sh) >>
+      

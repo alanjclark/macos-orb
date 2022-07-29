@@ -11,5 +11,5 @@ parameters:
 steps:
   - run:
       name: Setting simulator location
-      command: |
-
+      command: << include(scripts/set-sim-location.sh) >>
+      

@@ -3,3 +3,4 @@ steps:
   - run:
       name: Granting Safari permissions and enabling safaridriver
       command: << include(scripts/add-safari-permissions.sh) >>
+      
